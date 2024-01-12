@@ -1,24 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iCart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RegisterUserMainPage" translatesAutoresizingMaskIntoConstraints="NO" id="MqS-Xa-h8Q">
+                                <rect key="frame" x="33" y="144" width="327" height="327"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Super Foodo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-Cp-RuE">
+                                <rect key="frame" x="50" y="530" width="293" height="27"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXE-JH-Sid">
+                                <rect key="frame" x="50" y="567" width="293" height="29.333333333333371"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Lorem ipsum dolor sit amet consectetur. Ut cras pellentesque ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqg-OH-Erl">
+                                <rect key="frame" x="33" y="777.66666666666663" width="327" height="29.333333333333371"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="By ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <font key="NSOriginalFont" size="13" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Registering">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="13" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" or ">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <font key="NSOriginalFont" size="13" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Login">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="13" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> you have agreed to these
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <font key="NSOriginalFont" size="13" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Terms and Conditions">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="Arial-BoldMT"/>
+                                            <font key="NSOriginalFont" size="13" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=".">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="ArialMT"/>
+                                            <font key="NSOriginalFont" size="13" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWg-Nu-oEa">
+                                <rect key="frame" x="26" y="616.33333333333337" width="341" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="kwF-DL-83d"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Create account">
+                                    <backgroundConfiguration key="background" image="yellowButtonBG">
+                                        <color key="backgroundColor" name="Color"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKv-RO-2sB">
+                                <rect key="frame" x="26" y="684.33333333333337" width="341" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="X1t-ge-wQO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                    <backgroundConfiguration key="background" image="whiteButtonBG">
+                                        <color key="backgroundColor" name="Color"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QKv-RO-2sB" secondAttribute="trailing" constant="26" id="6LT-uf-LXS"/>
+                            <constraint firstItem="MqS-Xa-h8Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="7Uw-fW-xZx"/>
+                            <constraint firstItem="sbe-Cp-RuE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="BhY-f0-IIJ"/>
+                            <constraint firstItem="MqS-Xa-h8Q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="144" id="GME-HS-Xqc"/>
+                            <constraint firstItem="XWg-Nu-oEa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="Ikh-tz-JXt"/>
+                            <constraint firstAttribute="bottom" secondItem="Lqg-OH-Erl" secondAttribute="bottom" constant="45" id="OFd-hQ-xoz"/>
+                            <constraint firstItem="sbe-Cp-RuE" firstAttribute="top" secondItem="MqS-Xa-h8Q" secondAttribute="bottom" constant="59" id="XKy-bV-x4G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XWg-Nu-oEa" secondAttribute="trailing" constant="26" id="XOS-bt-zgw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sbe-Cp-RuE" secondAttribute="trailing" constant="50" id="ZfF-Cz-fdm"/>
+                            <constraint firstItem="DXE-JH-Sid" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="c2N-pA-4vd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lqg-OH-Erl" secondAttribute="trailing" constant="33" id="gkt-By-YAd"/>
+                            <constraint firstAttribute="trailing" secondItem="DXE-JH-Sid" secondAttribute="trailing" constant="50" id="h2t-cM-mZB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MqS-Xa-h8Q" secondAttribute="trailing" constant="33" id="jgU-cm-JR7"/>
+                            <constraint firstItem="DXE-JH-Sid" firstAttribute="top" secondItem="sbe-Cp-RuE" secondAttribute="bottom" constant="10" id="lI4-JC-Qyo"/>
+                            <constraint firstItem="QKv-RO-2sB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="rWw-pe-5is"/>
+                            <constraint firstItem="XWg-Nu-oEa" firstAttribute="top" secondItem="DXE-JH-Sid" secondAttribute="bottom" constant="20" id="s2V-3C-dbM"/>
+                            <constraint firstItem="Lqg-OH-Erl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="wLw-ak-G36"/>
+                            <constraint firstItem="QKv-RO-2sB" firstAttribute="top" secondItem="XWg-Nu-oEa" secondAttribute="bottom" constant="13" id="yXw-YF-sfA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QF4-Az-2uT">
+            <objects>
+                <viewController id="ZJg-JY-NhT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kwl-m7-y0Z">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9YX-gv-jL6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wh7-fo-IHC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816" y="-11"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="RegisterUserMainPage" width="327" height="327"/>
+        <image name="whiteButtonBG" width="342" height="55"/>
+        <image name="yellowButtonBG" width="342" height="55"/>
+        <namedColor name="Color">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
