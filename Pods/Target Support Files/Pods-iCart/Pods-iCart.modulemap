@@ -1,0 +1,6 @@
+framework module Pods_iCart {
+  umbrella header "Pods-iCart-umbrella.h"
+
+  export *
+  module * { export * }
+}
