@@ -6,5 +6,7 @@ target 'iCart' do
   use_frameworks!
 
   # Pods for iCart
-
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
 end
