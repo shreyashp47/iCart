@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="1321" y="-60"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Conroller-->
         <scene sceneID="QF4-Az-2uT">
             <objects>
-                <viewController id="ZJg-JY-NhT" sceneMemberID="viewController">
+                <viewController id="ZJg-JY-NhT" customClass="LoginViewConroller" customModule="iCart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kwl-m7-y0Z">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -414,10 +414,10 @@
             </objects>
             <point key="canvasLocation" x="2553" y="62"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="VdX-7A-7tn">
             <objects>
-                <viewController id="cTC-2k-OVg" sceneMemberID="viewController">
+                <viewController id="cTC-2k-OVg" customClass="RegisterViewController" customModule="iCart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dol-Sk-6Hr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,13 +475,13 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="T7a-jw-ag0" firstAttribute="leading" secondItem="94d-Nb-uls" secondAttribute="leading" constant="34" id="3Nz-Qe-egZ"/>
+                                    <constraint firstItem="T7a-jw-ag0" firstAttribute="leading" secondItem="94d-Nb-uls" secondAttribute="leading" constant="32" id="3Nz-Qe-egZ"/>
                                     <constraint firstItem="XDM-e1-Z0Y" firstAttribute="leading" secondItem="94d-Nb-uls" secondAttribute="leading" id="95Q-cc-HLh"/>
                                     <constraint firstAttribute="bottom" secondItem="XDM-e1-Z0Y" secondAttribute="bottom" id="Exi-ag-Q9c"/>
                                     <constraint firstItem="XDM-e1-Z0Y" firstAttribute="top" secondItem="94d-Nb-uls" secondAttribute="top" id="dsg-bb-kno"/>
                                     <constraint firstItem="XDM-e1-Z0Y" firstAttribute="centerX" secondItem="T7a-jw-ag0" secondAttribute="centerX" id="eZe-Zx-PL6"/>
                                     <constraint firstItem="XDM-e1-Z0Y" firstAttribute="centerY" secondItem="T7a-jw-ag0" secondAttribute="centerY" id="feX-e2-2Te"/>
-                                    <constraint firstAttribute="trailing" secondItem="T7a-jw-ag0" secondAttribute="trailing" constant="22" id="mti-DL-SUX"/>
+                                    <constraint firstAttribute="trailing" secondItem="T7a-jw-ag0" secondAttribute="trailing" constant="18" id="mti-DL-SUX"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyb-JH-riQ" userLabel="CnfPasswordView">
@@ -692,8 +692,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g1m-WS-1CV"/>
-        <segue reference="rQo-Xv-D5E"/>
+        <segue reference="Nxd-Pb-h3O"/>
+        <segue reference="f0J-aq-r4o"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrandLogo" width="209" height="156"/>
