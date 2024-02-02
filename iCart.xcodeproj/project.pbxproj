@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3443F852C7C59FC092511616 /* Pods_iCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF0075E5FADD8406BFBA90F /* Pods_iCart.framework */; };
+		890A73BD2B6B472F00B5C4A2 /* LoginViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A73BC2B6B472F00B5C4A2 /* LoginViewConroller.swift */; };
+		890A73BF2B6B478C00B5C4A2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A73BE2B6B478C00B5C4A2 /* RegisterViewController.swift */; };
+		8916D8D72B6C847F00ACB1B8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8916D8D62B6C847F00ACB1B8 /* Home.storyboard */; };
 		89278BCB2B50D7EE00D12A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89278BCA2B50D7EE00D12A91 /* AppDelegate.swift */; };
 		89278BCD2B50D7EE00D12A91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89278BCC2B50D7EE00D12A91 /* SceneDelegate.swift */; };
 		89278BCF2B50D7EE00D12A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89278BCE2B50D7EE00D12A91 /* ViewController.swift */; };
@@ -15,10 +17,14 @@
 		89278BD52B50D7EE00D12A91 /* iCart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89278BD32B50D7EE00D12A91 /* iCart.xcdatamodeld */; };
 		89278BD72B50D7EF00D12A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89278BD62B50D7EF00D12A91 /* Assets.xcassets */; };
 		89278BDA2B50D7EF00D12A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89278BD82B50D7EF00D12A91 /* LaunchScreen.storyboard */; };
+		DB63CC79D97DE9397773E8F6 /* Pods_iCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6606956F9843AD2DB87149 /* Pods_iCart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FE73AB12A6D81D1AC0D3BC1 /* Pods-iCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCart.release.xcconfig"; path = "Target Support Files/Pods-iCart/Pods-iCart.release.xcconfig"; sourceTree = "<group>"; };
+		36A1DCCF34932DC77559891F /* Pods-iCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCart.release.xcconfig"; path = "Target Support Files/Pods-iCart/Pods-iCart.release.xcconfig"; sourceTree = "<group>"; };
+		890A73BC2B6B472F00B5C4A2 /* LoginViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewConroller.swift; sourceTree = "<group>"; };
+		890A73BE2B6B478C00B5C4A2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8916D8D62B6C847F00ACB1B8 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		89278BC72B50D7EE00D12A91 /* iCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89278BCA2B50D7EE00D12A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89278BCC2B50D7EE00D12A91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +34,8 @@
 		89278BD62B50D7EF00D12A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89278BD92B50D7EF00D12A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89278BDB2B50D7EF00D12A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DCA9198A0097EF53B7525C5 /* Pods-iCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCart.debug.xcconfig"; path = "Target Support Files/Pods-iCart/Pods-iCart.debug.xcconfig"; sourceTree = "<group>"; };
-		EEF0075E5FADD8406BFBA90F /* Pods_iCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A646F7370B101AAAFBEA6670 /* Pods-iCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCart.debug.xcconfig"; path = "Target Support Files/Pods-iCart/Pods-iCart.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6606956F9843AD2DB87149 /* Pods_iCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3443F852C7C59FC092511616 /* Pods_iCart.framework in Frameworks */,
+				DB63CC79D97DE9397773E8F6 /* Pods_iCart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,10 +53,36 @@
 		1C4D1EE7402340495B789A45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DCA9198A0097EF53B7525C5 /* Pods-iCart.debug.xcconfig */,
-				5FE73AB12A6D81D1AC0D3BC1 /* Pods-iCart.release.xcconfig */,
+				A646F7370B101AAAFBEA6670 /* Pods-iCart.debug.xcconfig */,
+				36A1DCCF34932DC77559891F /* Pods-iCart.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		837C09D909B155D287D51384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6606956F9843AD2DB87149 /* Pods_iCart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		890A73BB2B6B46CD00B5C4A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				890A73BC2B6B472F00B5C4A2 /* LoginViewConroller.swift */,
+				890A73BE2B6B478C00B5C4A2 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8916D8D52B6C846400ACB1B8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				89278BD02B50D7EE00D12A91 /* Main.storyboard */,
+				8916D8D62B6C847F00ACB1B8 /* Home.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		89278BBE2B50D7EE00D12A91 = {
@@ -59,7 +91,7 @@
 				89278BC92B50D7EE00D12A91 /* iCart */,
 				89278BC82B50D7EE00D12A91 /* Products */,
 				1C4D1EE7402340495B789A45 /* Pods */,
-				A30C05E8B89D4169447B787E /* Frameworks */,
+				837C09D909B155D287D51384 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,24 +106,17 @@
 		89278BC92B50D7EE00D12A91 /* iCart */ = {
 			isa = PBXGroup;
 			children = (
+				8916D8D52B6C846400ACB1B8 /* Storyboard */,
+				890A73BB2B6B46CD00B5C4A2 /* Controller */,
 				89278BCA2B50D7EE00D12A91 /* AppDelegate.swift */,
 				89278BCC2B50D7EE00D12A91 /* SceneDelegate.swift */,
 				89278BCE2B50D7EE00D12A91 /* ViewController.swift */,
-				89278BD02B50D7EE00D12A91 /* Main.storyboard */,
 				89278BD62B50D7EF00D12A91 /* Assets.xcassets */,
 				89278BD82B50D7EF00D12A91 /* LaunchScreen.storyboard */,
 				89278BDB2B50D7EF00D12A91 /* Info.plist */,
 				89278BD32B50D7EE00D12A91 /* iCart.xcdatamodeld */,
 			);
 			path = iCart;
-			sourceTree = "<group>";
-		};
-		A30C05E8B89D4169447B787E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EEF0075E5FADD8406BFBA90F /* Pods_iCart.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,11 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89278BDE2B50D7EF00D12A91 /* Build configuration list for PBXNativeTarget "iCart" */;
 			buildPhases = (
-				B331B2C0EC6B9FB7C62B351F /* [CP] Check Pods Manifest.lock */,
+				D2189C887F1D6D9CE211B532 /* [CP] Check Pods Manifest.lock */,
 				89278BC32B50D7EE00D12A91 /* Sources */,
 				89278BC42B50D7EE00D12A91 /* Frameworks */,
 				89278BC52B50D7EE00D12A91 /* Resources */,
-				733AE71D9696CE57E517D9CE /* [CP] Embed Pods Frameworks */,
+				D30DE03D0453350431254BD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +181,7 @@
 			files = (
 				89278BDA2B50D7EF00D12A91 /* LaunchScreen.storyboard in Resources */,
 				89278BD72B50D7EF00D12A91 /* Assets.xcassets in Resources */,
+				8916D8D72B6C847F00ACB1B8 /* Home.storyboard in Resources */,
 				89278BD22B50D7EE00D12A91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,24 +189,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		733AE71D9696CE57E517D9CE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B331B2C0EC6B9FB7C62B351F /* [CP] Check Pods Manifest.lock */ = {
+		D2189C887F1D6D9CE211B532 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,6 +211,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D30DE03D0453350431254BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCart/Pods-iCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,8 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890A73BD2B6B472F00B5C4A2 /* LoginViewConroller.swift in Sources */,
 				89278BCF2B50D7EE00D12A91 /* ViewController.swift in Sources */,
 				89278BD52B50D7EE00D12A91 /* iCart.xcdatamodeld in Sources */,
+				890A73BF2B6B478C00B5C4A2 /* RegisterViewController.swift in Sources */,
 				89278BCB2B50D7EE00D12A91 /* AppDelegate.swift in Sources */,
 				89278BCD2B50D7EE00D12A91 /* SceneDelegate.swift in Sources */,
 			);
@@ -359,7 +387,7 @@
 		};
 		89278BDF2B50D7EF00D12A91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DCA9198A0097EF53B7525C5 /* Pods-iCart.debug.xcconfig */;
+			baseConfigurationReference = A646F7370B101AAAFBEA6670 /* Pods-iCart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,7 +416,7 @@
 		};
 		89278BE02B50D7EF00D12A91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE73AB12A6D81D1AC0D3BC1 /* Pods-iCart.release.xcconfig */;
+			baseConfigurationReference = 36A1DCCF34932DC77559891F /* Pods-iCart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
